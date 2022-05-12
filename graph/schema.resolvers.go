@@ -9,7 +9,7 @@ import (
 
 	"github.com/AnuAnnaJudson/meetup/graph/generated"
 	"github.com/AnuAnnaJudson/meetup/graph/model"
-	"github.com/AnuAnnaJudson/meetup/newmodels"
+	"github.com/AnuAnnaJudson/meetup/graph/newmodels"
 )
 
 func (r *meetupResolver) User(ctx context.Context, obj *newmodels.Meetup) (*newmodels.User, error) {
